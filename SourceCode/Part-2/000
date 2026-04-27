@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+
+zig13='/opt/zig/zig-0.13.0/zig'
+$zig13 build-exe "$1".zig
+mv "$1" "$1".o Compile/
+./Compile/"$1"
