@@ -80,13 +80,6 @@ Learn-Zig/
 
 ---
 
-<div align=center>
-
-    [Next ->](./daftar-isi.md)
-
-</div>
-
-
 <div align="center">
   <a href="https://github.com/gh0st4n">Gh0sT4n</a> -
   <a href="https://t4n-labs.github.io/t4n-os">T4n OS</a> -
