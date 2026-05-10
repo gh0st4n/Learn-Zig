@@ -12,7 +12,7 @@ Setiap byte yang dialokasikan adalah **Keputusan Programmer**, setiap error adal
 
 ## Struktur
 
-```
+```text
 Learn-Zig/
 │
 ├── README.md                       ← Visi, Filosofi Zig, Cara pakai kurikulum ini
@@ -80,10 +80,19 @@ Learn-Zig/
 
 ---
 
-<div align="center">
-
-    @[Gh0sT4n](https://github.com/gh0st4n) - [T4n OS](https://t4n-labs.github.io/t4n-os) - [Zig 0.16.0](https://ziglang.org/documentation/0.16.0)
+<div align=center>
 
     [Next ->](./daftar-isi.md)
 
+</div>
+
+
+<div align="center">
+  <a href="https://github.com/gh0st4n">Gh0sT4n</a> -
+  <a href="https://t4n-labs.github.io/t4n-os">T4n OS</a> -
+  <a href="https://ziglang.org/documentation/0.16.0">Zig 0.16.0</a>
+
+  <br><br>
+
+  <a href="./daftar-isi.md">Next -&gt;</a>
 </div>

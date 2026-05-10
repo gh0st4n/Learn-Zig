@@ -401,13 +401,15 @@ pub fn main() !void {
     }
 }
 ```
-
 ---
 
 <div align="center">
+  <a href="https://github.com/gh0st4n">Gh0sT4n</a> -
+  <a href="https://t4n-labs.github.io/t4n-os">T4n OS</a> -
+  <a href="https://ziglang.org/documentation/0.16.0">Zig 0.16.0</a>
 
-    @[Gh0sT4n](https://github.com/gh0st4n) - [T4n OS](https://t4n-labs.github.io/t4n-os) - [Zig 0.16.0](https://ziglang.org/documentation/0.16.0)
+  <br><br>
 
-    [<- Previously](./01-MateriTeori.md) | [Next ->](./03-VisualisasiMemori.md)
-
+  <a href="(./01-MateriTeori.md)">&lt;- Previously</a> |
+  <a href="./03-VisualisasiMemori.md">Next -&gt;</a>
 </div>

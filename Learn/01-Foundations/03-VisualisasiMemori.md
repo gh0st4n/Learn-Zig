@@ -54,8 +54,8 @@ MEMORI:
   │ slice variable       │         │
   │  ┌────────────────┐  │         │  0x0000_0001_5000_0000
   │  │ .ptr: *u8      │──┼────────►│  ┌─────────────────────────┐
-  │  │ = 0x150000000  │  │         │  │ [0x00] │ [0x01] │ ...  │
-  │  ├────────────────┤  │         │  │  0x00  │  0x00  │ ...  │
+  │  │ = 0x150000000  │  │         │  │ [0x00] │ [0x01] │ ...   │
+  │  ├────────────────┤  │         │  │  0x00  │  0x00  │ ...   │
   │  │ .len: usize    │  │         │  │ ← 1024 bytes alokasi →  │
   │  │ = 1024         │  │         │  └─────────────────────────┘
   │  └────────────────┘  │         │  (dikelola oleh GPA internaly)
@@ -137,15 +137,18 @@ BERBEDA dengan C yang sering menggunakan:
   return -1;  ← nilai ajaib yang harus Anda tahu artinya
 ```
 
-Visual interaktif dari layout memori stack dan heap di bawah ini:
+## Visual interaktif dari layout memori stack dan heap di bawah ini:
 ![Gambar](./img/zig_memory_layout_foundations.svg)
 
 ---
 
 <div align="center">
+  <a href="https://github.com/gh0st4n">Gh0sT4n</a> -
+  <a href="https://t4n-labs.github.io/t4n-os">T4n OS</a> -
+  <a href="https://ziglang.org/documentation/0.16.0">Zig 0.16.0</a>
 
-    @[Gh0sT4n](https://github.com/gh0st4n) - [T4n OS](https://t4n-labs.github.io/t4n-os) - [Zig 0.16.0](https://ziglang.org/documentation/0.16.0)
+  <br><br>
 
-    [<- Previously](./02-ImplementasiKode.md) | [Next ->](./04-TugasPraktik.md)
-
+  <a href="/02-ImplementasiKode.md">&lt;- Previously</a> |
+  <a href="./04-TugasPraktik.md">Next -&gt;</a>
 </div>

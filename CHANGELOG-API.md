@@ -26,9 +26,13 @@ Sebelum masuk ke modul pertama, berikut adalah **breaking changes utama** yang w
 
 ---
 
-<div>
+<div align="center">
+  <a href="https://github.com/gh0st4n">Gh0sT4n</a> -
+  <a href="https://t4n-labs.github.io/t4n-os">T4n OS</a> -
+  <a href="https://ziglang.org/documentation/0.16.0">Zig 0.16.0</a>
 
-    @Gh0sT4n - Forever
-    [<- Previously](./daftar-isi.md) | [Next ->](./Learn/01-Foundations/01-MateriTeori.md)
+  <br><br>
 
+  <a href="./daftar-isi.md">&lt;- Previously</a> |
+  <a href="./Learn/01-Foundations/01-MateriTeori.md">Next -&gt;</a>
 </div>

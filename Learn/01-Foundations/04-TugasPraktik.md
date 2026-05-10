@@ -23,7 +23,7 @@ Buat fungsi `fizzBuzz(n: u32, writer: anytype) !void` yang:
 
 Panggil dari `main` dengan error handling menggunakan `catch`.
 
-# Level 3 - Menengah: "Stack Kalkulator"
+## Level 3 - Menengah: "Stack Kalkulator"
 Implementasikan kalkulator RPN (Reverse Polish Notation) menggunakan `Stack(f64)` dari Bagian 6. Program harus:
 
 1. Membaca input seperti `"3 4 + 2 * 7 -"` (hasilnya: `(3+4)*2-7 = 7`)
@@ -32,7 +32,7 @@ Implementasikan kalkulator RPN (Reverse Polish Notation) menggunakan `Stack(f64)
 4. Bila token adalah operator (+, -, *, /) → pop dua angka, hitung, push hasilnya
 5. Return error bila input invalid (stack underflow, division by zero)
 
-# Level 4 - Lanjutan: "Custom String Formatter"
+## Level 4 - Lanjutan: "Custom String Formatter"
 Buat fungsi `formatBytes(bytes: u64, writer: anytype) !void` yang mengonversi bytes ke format human-readable:
 ```text
 0       → "0 B"
@@ -74,9 +74,12 @@ const schema = [_]FieldDef{
 ---
 
 <div align="center">
+  <a href="https://github.com/gh0st4n">Gh0sT4n</a> -
+  <a href="https://t4n-labs.github.io/t4n-os">T4n OS</a> -
+  <a href="https://ziglang.org/documentation/0.16.0">Zig 0.16.0</a>
 
-    @[Gh0sT4n](https://github.com/gh0st4n) - [T4n OS](https://t4n-labs.github.io/t4n-os) - [Zig 0.16.0](https://ziglang.org/documentation/0.16.0)
+  <br><br>
 
-    [<- Previously](./03-VisualisasiMemori.md) | [Next ->](./05-Note.md)
-
+  <a href="./03-VisualisasiMemori.md">&lt;- Previously</a> |
+  <a href="./05-Note.md">Next -&gt;</a>
 </div>
